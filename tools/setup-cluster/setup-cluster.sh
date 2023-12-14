@@ -7,13 +7,13 @@ set -e
 # The below variables are used in the following commands. Please update them #
 # to reflect the details for your Azure subscription and your cluster.       #
 ##############################################################################
-SUBSCRIPTION=<your subscription ID>
-RESOURCE_GROUP=<your resource group>
-CLUSTER_NAME=<your connected cluster name>
-TENANT_ID=<your tenant ID>
-AKV_SP_CLIENTID=<your AKV service principal client ID>
-AKV_SP_CLIENTSECRET=<your AKV service principal client secret>
-AKV_NAME=<your AKV name>
+SUBSCRIPTION="97e5fcbb-46c5-4787-935e-51d54c8dc12e"
+RESOURCE_GROUP="AzureArcPOC"
+CLUSTER_NAME="Iotoperations-kub-eastus"
+TENANT_ID="ebd95286-551e-4b34-9fef-60b74293d1f9"
+AKV_SP_CLIENTID="02d3e867-999a-48d6-8ef4-9974460a1b37"
+AKV_SP_CLIENTSECRET="gow8Q~SPropcQu1tbmWp7MVswOKgKfjIeasHSbRX"
+AKV_NAME="Iotoperation-kv-eastus"
 
 PLACEHOLDER_SECRET_NAME=PlaceholderSecret
 AKV_PROVIDER_POLLING_INTERVAL=1h
