@@ -6,10 +6,10 @@
       "value": "Iotoperations-kub-eastus"
     },
     "clusterLocation": {
-      "value": "eastus2"
+      "value": "eastus"
     },
     "location": {
-      "value": "eastus2"
+      "value": "eastus"
     },
     "simulatePLC": {
       "value": false
